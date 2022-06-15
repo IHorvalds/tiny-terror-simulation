@@ -1,0 +1,65 @@
+* G:\Docs&Research\Thesus\SPICE Models\TinyTerror\TinyTerror - Copy.asc
+XU1 N005 P001 N021 7025
+XU2 N006 0 N007 pot_lin Rtap=1k tap=0.5
+XU3 N002 N007 N019 7025
+XU4 N009 0 N013 pot_lin Rtap=1k tap=0.5
+XU5 N008 N014 N020 7025
+XU6 N003 N015 N020 7025
+R11 P001 N017 68K
+R12 N017 0 1Meg
+R13 N021 0 1.5K
+R14 D N005 100K
+R15 D N002 100k
+R16 N006 P002 68k
+R17 0 N006 470K
+R18 0 N019 1.5K
+R19 N002 P003 68K
+V1 N016 0 wavefile="G:\Docs&Research\Thesus\SPICE Models\tt-unprocessed\Sample - ({}).wav" AC 1 0 Rser=5K
+C1 N017 N016 .22µF
+C2 0 N021 22µF
+C3 P002 N005 0.001µF
+C4 N007 N006 0.0001µF
+C5 0 N019 22µF
+C6 D N002 470pF
+C7 N009 P003 0.047µF
+R1 N009 0 220K
+C8 N014 N013 0.047µF
+R2 N020 P004 1.2K
+R3 P004 0 47K
+R4 P004 N014 1Meg
+R5 N015 P004 1Meg
+C9 N015 0 0.047µF
+R6 C N008 100K
+R7 C N003 100K
+C10 N026 N008 0.1µF
+C11 N004 N003 0.1µF
+XU7 N004 0 N011 pot_lin Rtap=1k tap=0.5
+XU8 0 N026 N023 pot_lin Rtap=1k tap=0.5
+C12 P005 N023 0.0022µF
+XU9 N011 P005 N011 pot_lin Rtap=1k tap=0.5
+R8 N011 0 220K
+R9 0 N023 220K
+R10 N012 N011 1.5K
+R20 N025 N023 1.5K
+C13 0 N018 220µF
+R21 0 N018 120
+R22 B N010 470
+R23 B N024 470
+XU12 N001 A N022 output 0 PP_OUTPUT_XFRMR
+R24 output 0 16
+V2 A 0 325 Rser=10
+V3 B 0 320 Rser=10
+V4 C 0 290 Rser=10
+V5 D 0 265 Rser=20
+B1 output_scaled 0 V=0.025 * V(output)
+XU10 N001 N010 N012 N018 EL84
+XU11 N022 N024 N025 N018 EL84
+.INC transPPc.INC
+.INC potentiometer_standard.lib
+.INC Koren_Tubes.INC
+* Tiny Terror Copy
+* LTSpice schematic by T. Croitoru
+* ; .wave "G:\\Docs&Research\\Thesus\\SPICE Models\\tt-processed\\Processed - ({}).wav" 24 44.1K V(output_scaled)
+* .tran 37
+.backanno
+.end

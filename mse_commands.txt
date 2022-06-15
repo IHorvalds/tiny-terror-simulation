@@ -1,0 +1,27 @@
+python .\mse_calc.py --reference="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\250Hz\groundtruth.wav" `
+--predicted-dir="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\250Hz" `
+> "g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\MSE\MSE-250Hz.txt"
+
+python .\mse_calc.py --reference="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\440Hz\groundtruth.wav" `
+--predicted-dir="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\440Hz" `
+> "g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\MSE\MSE-440Hz.txt"
+
+python .\mse_calc.py --reference="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\997Hz\groundtruth.wav" `
+--predicted-dir="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\997Hz" `
+> "g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\MSE\MSE-997Hz.txt"
+
+python .\mse_calc.py --reference="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\1kHz\groundtruth.wav" `
+--predicted-dir="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\1kHz" `
+> "g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\MSE\MSE-1kHz.txt"
+
+python .\mse_calc.py --reference="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\5kHz\groundtruth.wav" `
+--predicted-dir="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\5kHz" `
+> "g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\MSE\MSE-5kHz.txt"
+
+python .\mse_calc.py --reference="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\10kHz\groundtruth.wav" `
+--predicted-dir="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\10kHz" `
+> "g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\MSE\MSE-10kHz.txt"
+
+python .\mse_calc.py --reference="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\15kHz\groundtruth.wav" `
+--predicted-dir="g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\15kHz" `
+> "g:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\MSE\MSE-15kHz.txt"

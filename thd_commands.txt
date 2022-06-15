@@ -1,0 +1,20 @@
+python .\thd_calc.py --signal-dir "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\250Hz" `
+--base-freq 250 --harmonics-count 5 > "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\THD\THD-250Hz.txt"
+
+python .\thd_calc.py --signal-dir "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\440Hz" `
+--base-freq 440 --harmonics-count 5 > "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\THD\THD-440Hz.txt"
+
+python .\thd_calc.py --signal-dir "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\997Hz" `
+--base-freq 997 --harmonics-count 5 > "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\THD\THD-997Hz.txt"
+
+python .\thd_calc.py --signal-dir "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\1kHz" `
+--base-freq 1000 --harmonics-count 5 > "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\THD\THD-1kHz.txt"
+
+python .\thd_calc.py --signal-dir "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\5kHz" `
+--base-freq 5000 --harmonics-count 5 > "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\THD\THD-5kHz.txt"
+
+python .\thd_calc.py --signal-dir "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\10kHz" `
+--base-freq 10000 --harmonics-count 5 > "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\THD\THD-10kHz.txt"
+
+python .\thd_calc.py --signal-dir "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\15kHz" `
+--base-freq 15000 --harmonics-count 5 > "G:\Docs&Research\Thesus\SPICE Models\Docs\scripts\results\THD\THD-15kHz.txt"
